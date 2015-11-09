@@ -19,5 +19,4 @@ describe 'Counter' do
   it 'outputs the new line separator to output' do
     expect { subject.call }.to output(/\========================/).to_stdout
   end
-
 end
